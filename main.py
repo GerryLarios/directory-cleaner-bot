@@ -41,7 +41,6 @@ for doc in docs:
 
     # create the folder if not exists
     if dir_exists(subfolder_path) is False:
-        print('ENTRA')
         try:
             os.mkdir(subfolder_path)
             created_folders.append(subfolder_path)
